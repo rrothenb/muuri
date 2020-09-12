@@ -71,15 +71,16 @@ document.addEventListener('DOMContentLoaded', function () {
       name: 'to do',
       type: 'todo',
       items: [
-        "Figure out how to get more sponsors to support Muuri's development",
-        'Prioritize non-coding activities on leisure time',
+        "Get a better name than Mello",
+        'Find out what it should do',
+        'Actually build something that works'
       ],
     },
-    { name: 'working', type: 'working', items: ['Fix bugs', 'Make demos'] },
+    { name: 'working', type: 'working', items: ['Think about stuff'] },
     {
       name: 'done',
       type: 'done',
-      items: ['Release Muuri v0.9.0'],
+      items: ['Put together a quick demo for Shan', 'Annoy Shan with questions about Trello for The Mindfull Learner'],
     },
   ].forEach(({ name, type, items }, i) => {
     window.setTimeout(() => {
